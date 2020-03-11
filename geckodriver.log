@@ -1,0 +1,343 @@
+1583503453793	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofileQUefFB"
+1583503454658	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583503455934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583503455934	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583503455935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583503455935	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583503458765	Marionette	INFO	Listening on port 50316
+1583503459021	Marionette	WARN	TLS certificate errors will be ignored for this session
+1583503489386	Marionette	INFO	Stopped listening on port 50316
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1583503773405	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofileYkFI0f"
+1583503774060	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583503775213	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583503775213	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583503775213	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583503775213	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583503777358	Marionette	INFO	Listening on port 50401
+1583503777540	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 27400, Chrome_ChildThread] WARNING: pipe error: 232: file z:/task_1581954009/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 507
+JavaScript error: resource://gre/modules/UpdateTimerManager.jsm, line 352: TypeError: setting getter-only property "gLogEnabled"
+JavaScript error: resource://gre/modules/ModulesPing.jsm, line 70: NS_ERROR_XPC_JAVASCRIPT_ERROR_WITH_DETAILS: [JavaScript Error: "setting getter-only property "gLogEnabled"" {file: "resource://gre/modules/UpdateTimerManager.jsm" line: 352}]'[JavaScript Error: "setting getter-only property "gLogEnabled"" {file: "resource://gre/modules/UpdateTimerManager.jsm" line: 352}]' when calling method: [nsIUpdateTimerManager::registerTimer]
+1583503836308	Marionette	INFO	Stopped listening on port 50401
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1583503892384	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofile55Q0sz"
+1583503892928	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583503893972	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583503893972	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583503893972	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583503893972	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583503896361	Marionette	INFO	Listening on port 50492
+1583503896503	Marionette	WARN	TLS certificate errors will be ignored for this session
+1583503901843	Marionette	INFO	Stopped listening on port 50492
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1583503927034	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofile8f0eS2"
+1583503927595	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583503928656	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583503928656	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583503928657	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583503928657	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583503931092	Marionette	INFO	Listening on port 50535
+1583503931162	Marionette	WARN	TLS certificate errors will be ignored for this session
+1583503955519	Marionette	INFO	Stopped listening on port 50535
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1583503964059	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofiler9kkPB"
+1583503964600	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583503965964	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583503965964	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583503965965	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583503965965	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583503968214	Marionette	INFO	Listening on port 50576
+1583503968300	Marionette	WARN	TLS certificate errors will be ignored for this session
+1583503978156	Marionette	INFO	Stopped listening on port 50576
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1583504066335	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofileZtEbyB"
+*** You are running in headless mode.
+1583504066929	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583504067960	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583504067960	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583504067960	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583504067960	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583504070185	Marionette	INFO	Listening on port 50635
+1583504070451	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 29264, Gecko_IOThread] WARNING: file z:/task_1581954009/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1583504391355	Marionette	INFO	Stopped listening on port 50635
+1583569190813	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofile6Tj47W"
+*** You are running in headless mode.
+1583569191773	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583569193255	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583569193255	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583569193256	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583569193256	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583569195953	Marionette	INFO	Listening on port 55704
+1583569196048	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 25792, Gecko_IOThread] WARNING: file z:/task_1581954009/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1583569229656	Marionette	INFO	Stopped listening on port 55704
+1583578509705	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofileOq7dkl"
+*** You are running in headless mode.
+1583578510482	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583578511705	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583578511705	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583578511705	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583578511705	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583578513722	Marionette	INFO	Listening on port 56401
+1583578513845	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 14388, Gecko_IOThread] WARNING: file z:/task_1581954009/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1583578556827	Marionette	INFO	Stopped listening on port 56401
+1583578578810	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofileC7GNIv"
+*** You are running in headless mode.
+1583578579414	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583578580692	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583578580693	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583578580693	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583578580693	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583578583110	Marionette	INFO	Listening on port 56480
+1583578583533	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xD,name=PAPZ::Msg_Destroy) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 29628, Gecko_IOThread] WARNING: file z:/task_1581954009/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1583578656921	Marionette	INFO	Stopped listening on port 56480
+1583578675762	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofilevE3QVY"
+*** You are running in headless mode.
+1583578676406	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583578677568	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583578677568	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583578677568	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583578677568	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583578679563	Marionette	INFO	Listening on port 56573
+1583578679888	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 28848, MediaDecoderStateMachine #1] WARNING: Decoder=1c8dcc22c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 28848, MediaDecoderStateMachine #1] WARNING: Decoder=1c8dcc22c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 28848, MediaDecoderStateMachine #1] WARNING: Decoder=1c8dcc22c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+JavaScript warning: https://www.youtube.com/yts/jsbin/player_ias-vfle4a9aa/en_US/base.js, line 5378: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError
+[Child 28848, MediaDecoderStateMachine #1] WARNING: Decoder=1c8dcc22c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 28848, MediaDecoderStateMachine #1] WARNING: Decoder=1c8dcc22c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 28848, MediaDecoderStateMachine #1] WARNING: Decoder=1c8dcc22c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 28848, MediaDecoderStateMachine #1] WARNING: Decoder=1c8dcc22c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 28848, MediaDecoderStateMachine #1] WARNING: Decoder=1c8dcc22c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 28848, MediaDecoderStateMachine #1] WARNING: Decoder=1c8db110400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+JavaScript warning: https://www.youtube.com/yts/jsbin/player_ias-vfle4a9aa/en_US/base.js, line 5378: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError
+JavaScript warning: https://www.youtube.com/yts/jsbin/player_ias-vfle4a9aa/en_US/base.js, line 5378: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError
+[Child 28848, MediaDecoderStateMachine #1] WARNING: Decoder=1c8db110400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 28848, MediaDecoderStateMachine #1] WARNING: Decoder=1c8db110400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+JavaScript warning: https://www.youtube.com/yts/jsbin/player_ias-vfle4a9aa/en_US/base.js, line 5538: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.youtube.com/yts/jsbin/player_ias-vfle4a9aa/en_US/base.js, line 5538: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370131,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 28728, Gecko_IOThread] WARNING: file z:/task_1581954009/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1583579247504	Marionette	INFO	Stopped listening on port 56573
+1583774974681	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofileQRnx5Y"
+*** You are running in headless mode.
+1583774977374	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583774978584	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583774978584	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583774978584	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583774978584	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583774981198	Marionette	INFO	Listening on port 57988
+1583774981579	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370131,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 13688, Gecko_IOThread] WARNING: file z:/task_1581954009/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1583777250872	Marionette	INFO	Stopped listening on port 57988
+Invalid extension permission: networkStatus
+1583777229376	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583777229377	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583777229377	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583777229377	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583777231509	Marionette	INFO	Listening on port 58165
+1583777232007	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 20020, Gecko_IOThread] WARNING: file z:/task_1581954009/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1583777248397	Marionette	INFO	Stopped listening on port 58165
+1583781610344	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofilem7zI9U"
+*** You are running in headless mode.
+1583781611151	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583781612228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583781612228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583781612228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583781612228	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583781614613	Marionette	INFO	Listening on port 49863
+1583781614623	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370131,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 4964, Gecko_IOThread] WARNING: file z:/task_1581954009/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1583783236597	Marionette	INFO	Stopped listening on port 49863
+ Invalid extension permission: networkStatus
+1583781631912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583781631912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583781631912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583781631912	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583781633857	Marionette	INFO	Listening on port 49902
+1583781633936	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370131,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 28368, Gecko_IOThread] WARNING: file z:/task_1581954009/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1583783229879	Marionette	INFO	Stopped listening on port 49902
+Invalid extension permission: networkStatus
+1583781673268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583781673268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583781673268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583781673268	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583781676914	Marionette	INFO	Listening on port 49972
+1583781677334	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0xAA0001,name=PVsync::Msg_Notify) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 27740, Gecko_IOThread] WARNING: file z:/task_1581954009/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1583781884500	Marionette	INFO	Stopped listening on port 49972
+1583782806784	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofile8al8Vv"
+*** You are running in headless mode.
+1583782807470	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583782808717	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583782808717	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583782808717	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583782808717	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583782810803	Marionette	INFO	Listening on port 50272
+1583782810927	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 8036, Gecko_IOThread] WARNING: file z:/task_1581954009/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1583783016974	Marionette	INFO	Stopped listening on port 50272
+1583783107231	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofileC7mZhF"
+*** You are running in headless mode.
+1583783107935	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583783109042	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583783109042	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583783109043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583783109043	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583783111249	Marionette	INFO	Listening on port 50366
+1583783111413	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 27224, Gecko_IOThread] WARNING: file z:/task_1581954009/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1583783143482	Marionette	INFO	Stopped listening on port 50366
+1583783176529	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofile8WTYb7"
+*** You are running in headless mode.
+1583783177263	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583783178482	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583783178482	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583783178482	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583783178482	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583783180959	Marionette	INFO	Listening on port 50440
+1583783181327	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 26916, Gecko_IOThread] WARNING: file z:/task_1581954009/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1583783204391	Marionette	INFO	Stopped listening on port 50440
+1583783249128	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofileE1eRg3"
+*** You are running in headless mode.
+1583783249735	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583783250991	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583783250991	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583783250991	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583783250991	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583783253665	Marionette	INFO	Listening on port 50518
+1583783253864	Marionette	WARN	TLS certificate errors will be ignored for this session
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 27488, Gecko_IOThread] WARNING: file z:/task_1581954009/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1583783530187	Marionette	INFO	Stopped listening on port 50518
+1583783645415	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofileOsvvwj"
+*** You are running in headless mode.
+1583783646104	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583783647338	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583783647338	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583783647338	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583783647338	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583783649831	Marionette	INFO	Listening on port 50612
+1583783650200	Marionette	WARN	TLS certificate errors will be ignored for this session
+1583783726838	Marionette	INFO	Stopped listening on port 50612
+1583814284239	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofileoYvxNw"
+*** You are running in headless mode.
+1583814287268	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583814288632	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583814288633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583814288633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583814288633	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583814291462	Marionette	INFO	Listening on port 50883
+1583814291649	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 25276, MediaDecoderStateMachine #1] WARNING: Decoder=2625308e400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+JavaScript warning: https://www.youtube.com/yts/jsbin/player_ias-vflQm4drh/en_US/base.js, line 5380: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError
+[Child 25276, MediaDecoderStateMachine #1] WARNING: Decoder=2625308e400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 25276, MediaDecoderStateMachine #1] WARNING: Decoder=2625308e400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 25276, MediaDecoderStateMachine #1] WARNING: Decoder=2625308e400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 25276, MediaDecoderStateMachine #1] WARNING: Decoder=26251a79400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+JavaScript warning: https://www.youtube.com/yts/jsbin/player_ias-vflQm4drh/en_US/base.js, line 5380: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError
+JavaScript warning: https://www.youtube.com/yts/jsbin/player_ias-vflQm4drh/en_US/base.js, line 5380: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError
+[Child 25276, MediaDecoderStateMachine #1] WARNING: Decoder=26251a79400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 25276, MediaDecoderStateMachine #1] WARNING: Decoder=26251a79400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 25276, MediaDecoderStateMachine #1] WARNING: Decoder=26251a79400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 25276, MediaDecoderStateMachine #1] WARNING: Decoder=26251a79400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 25276, MediaDecoderStateMachine #1] WARNING: Decoder=26251a79400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+JavaScript warning: https://www.youtube.com/yts/jsbin/player_ias-vflQm4drh/en_US/base.js, line 5540: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.youtube.com/yts/jsbin/player_ias-vflQm4drh/en_US/base.js, line 5540: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+Exiting due to channel error.
+1583814514227	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofileFzueXl"
+*** You are running in headless mode.
+1583814515179	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1583814516741	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1583814516741	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1583814516741	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1583814516741	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1583814519080	Marionette	INFO	Listening on port 50983
+1583814519479	Marionette	WARN	TLS certificate errors will be ignored for this session
+1583814597117	Marionette	INFO	Stopped listening on port 50983
