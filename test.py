@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 import time 
 
-api_key = 'AIzaSyAPdA0K_BWOMddIl3iHUl39UNeI4qXOsJk'
+api_key = ''
 
 youtube = build('youtube','v3',developerKey=api_key)
 
