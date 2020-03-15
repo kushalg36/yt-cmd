@@ -2,8 +2,9 @@ from apiclient.discovery import build
 from selenium import webdriver
 from selenium.webdriver.firefox.options import Options
 import time 
+import os
 
-api_key = ''
+api_key = os.environ.get('yt_api')
 
 youtube = build('youtube','v3',developerKey=api_key)
 

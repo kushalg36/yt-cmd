@@ -2,22 +2,27 @@ from seleniumDriver import new_driver
 from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.keys import Keys
 from apiclient.discovery import build
+import os
+import time
 
 class logic:
 
     def __init__(self):
         self.actions = None
         self.driver = new_driver()
-        self.url = 'https://www.youtube.com'
+        self.url = 'https://www.google.com'
         self.driver.get(self.url)
         self.video_id=''
+        self.api_key = os.environ.get('yt_api')
+        self.youtube = build('youtube','v3',developerKey=self.api_key)
 
     def search(self, query):
         """
         Search function
         """
-        api_key = os.environ.get('yt_api')
-        youtube = build('youtube','v3',developerKey=api_key)
+        # api_key = os.environ.get('yt_api')
+        # youtube = build('youtube','v3',developerKey=api_key)
+        youtube = self.youtube
         request_for_search = youtube.search().list(
             part = "snippet",
             maxResults = '1',
@@ -27,12 +32,18 @@ class logic:
         video_id = response['items'][0]['id']['videoId']
         self.video_id=video_id
         self.url = "https://www.youtube.com/watch?v=" + video_id
+        self.driver.get(self.url)
+        button = self.driver.find_element_by_css_selector(".ytp-play-button.ytp-button")
+        coordinates = button.location_once_scrolled_into_view
+        # print(coordinates)
+        button.click()
         return True
 
     def video_info(self):
         """
         Returns song_title and channel_name
         """
+        youtube = self.youtube
         request_for_video = youtube.videos().list(
             part="snippet,contentDetails",
             id=self.video_id
