@@ -17,11 +17,26 @@ def delete_lines(n):
 def info():
     title = logic.video_info()
 
-def argParse():
+def args_parser():
+    """
+    Parse Command line arguments
+    """
     parser = argparse.ArgumentParser(description='yt-play: Play music from terminal')
+    parser.add_argument('-s','--song',type=str,help='Enter song name to be played')
+    return parser.parse_args()
+
+def format(args):
+    """
+    Key formating
+    """
+    yt_app = logic()
+    yt_app.search(args.song)
+
+    # key = ''
+    
+    # while key != 'q':
+    #     key = 
 
 if __name__ == "__main__":
-    yt_logic = logic()
-    yt_logic.search(query='talk khalid') #.search(query='talk khalid')
-    print(yt_logic.video_info())
-    # yt_logic.play_pause()
+    args = args_parser()
+    format(args)

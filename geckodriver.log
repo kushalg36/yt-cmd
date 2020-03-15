@@ -1731,3 +1731,35 @@ A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 [Parent 14884, Gecko_IOThread] WARNING: file z:/task_1581954009/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
 A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
 1584270229418	Marionette	INFO	Stopped listening on port 51068
+1584273057385	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\kusha\\AppData\\Local\\Temp\\rust_mozprofileGJ8Wbe"
+*** You are running in headless mode.
+1584273058033	addons.webextension.doh-rollout@mozilla.org	WARN	Loading extension 'doh-rollout@mozilla.org': Reading manifest: Invalid extension permission: networkStatus
+1584273059127	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1584273059127	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1584273059127	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1584273059127	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1584273061108	Marionette	INFO	Listening on port 52195
+1584273061507	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 5660, MediaDecoderStateMachine #1] WARNING: Decoder=16bc9cd9000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+JavaScript warning: https://www.youtube.com/yts/jsbin/player_ias-vflQJ_oH3/en_US/base.js, line 5397: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError
+[Child 5660, MediaDecoderStateMachine #1] WARNING: Decoder=16bc9cd9000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 5660, MediaDecoderStateMachine #1] WARNING: Decoder=16bc9cd9000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 5660, MediaDecoderStateMachine #1] WARNING: Decoder=16bc9cd9000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 5660, MediaDecoderStateMachine #1] WARNING: Decoder=16bc9cd9000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 5660, MediaDecoderStateMachine #1] WARNING: Decoder=16bc8975c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+JavaScript warning: https://www.youtube.com/yts/jsbin/player_ias-vflQJ_oH3/en_US/base.js, line 5397: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError
+JavaScript warning: https://www.youtube.com/yts/jsbin/player_ias-vflQJ_oH3/en_US/base.js, line 5397: Error: This error message will be blank when privacy.resistFingerprinting = true.  If it is really necessary, please add it to the whitelist in MediaError::GetMessage: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError
+[Child 5660, MediaDecoderStateMachine #1] WARNING: Decoder=16bc8975c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 5660, MediaDecoderStateMachine #1] WARNING: Decoder=16bc8975c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 5660, MediaDecoderStateMachine #1] WARNING: Decoder=16bc8975c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - HandleRejectionError: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+[Child 5660, MediaDecoderStateMachine #1] WARNING: Decoder=16bc8975c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1581954009/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3358
+JavaScript warning: https://www.youtube.com/yts/jsbin/player_ias-vflQJ_oH3/en_US/base.js, line 5559: Error: WebGL warning: <SetDimensions>: Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.youtube.com/yts/jsbin/player_ias-vflQJ_oH3/en_US/base.js, line 5559: Error: WebGL warning: <SetDimensions>: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x370131,name=PContent::Msg_AsyncMessage) Channel error: cannot send/recv
+
+A content process crashed and MOZ_CRASHREPORTER_SHUTDOWN is set, shutting down
+[Parent 9712, Gecko_IOThread] WARNING: file z:/task_1581954009/build/src/ipc/chromium/src/base/process_util_win.cc, line 160
+1584273144759	Marionette	INFO	Stopped listening on port 52195
