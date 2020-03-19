@@ -6,5 +6,8 @@ def new_driver():
     creates webdriver instance of firefox
     """
     options = Options()
-    options.headless = True
-    return webdriver.Firefox(options=options) 
+    # options.headless = True
+    driver =  webdriver.Firefox(options=options)
+    addon_path = 'C:\\Users\\kusha\\OneDrive\\Desktop\\project\\youtube cmd\\adblockultimate@adblockultimate.net.xpi'
+    driver.install_addon(addon_path,temporary=True)
+    return driver

@@ -1,4 +1,9 @@
 import keyboard
 
-k = keyboard.press_and_release()
-print(k)
+while True:
+    try:
+        if keyboard.is_pressed('q'):
+            print('You pressed A key!')
+            break
+    except:
+        break

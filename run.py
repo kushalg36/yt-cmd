@@ -32,10 +32,25 @@ def format(args):
     yt_app = logic()
     yt_app.search(args.song)
 
-    # key = ''
-    
-    # while key != 'q':
-    #     key = 
+    while keyboard.is_pressed('q') == False:
+        if(keyboard.is_pressed('s') == True):
+            song = input('Enter new song==> ')
+            yt_app.search(song=song) #Not working yet
+
+        elif(keyboard.is_pressed('l') == True):
+            yt_app.next() #Not working yet
+
+        elif(keyboard.is_pressed('k') == True):
+            yt_app.play_pause() #Working
+
+        elif(keyboard.is_pressed('g') == True):
+            yt_app.seek_forward() #Not working proerply
+        
+        elif(keyboard.is_pressed('d') == True):
+            yt_app.seek_backward() #Not working proerply
+
+        elif(keyboard.is_pressed('q') == True):
+            yt_app.close() # working
 
 if __name__ == "__main__":
     args = args_parser()

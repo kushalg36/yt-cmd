@@ -35,7 +35,6 @@ class logic:
         self.driver.get(self.url)
         button = self.driver.find_element_by_css_selector(".ytp-play-button.ytp-button")
         coordinates = button.location_once_scrolled_into_view
-        # print(coordinates)
         button.click()
         return True
 
