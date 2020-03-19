@@ -2,9 +2,14 @@ from logic import logic
 import keyboard 
 import sys
 import argparse
+import time
 
-SHIFT_UP = '\x1b[1A'
-DELETE_LINE = '\x1b[2K'
+'''
+ TODO
+ 1) handle keyboardInterrupt
+ 2) handle MaxRetryError
+ 3) add graphics
+'''
 
 # call logic here
 
@@ -35,19 +40,24 @@ def format(args):
     while keyboard.is_pressed('q') == False:
         if(keyboard.is_pressed('s') == True):
             song = input('Enter new song==> ')
-            yt_app.search(song=song) #Not working yet
+            yt_app.search(query = song) #Not working yet
+            time.sleep(0.1)
 
         elif(keyboard.is_pressed('l') == True):
             yt_app.next() #Working without issues
+            time.sleep(0.1)
 
-        elif(keyboard.is_pressed('k') == True):
+        elif(keyboard.is_pressed('f') == True):
             yt_app.play_pause() #Working without issues
+            time.sleep(0.1)
 
         elif(keyboard.is_pressed('g') == True):
             yt_app.seek_forward() #Not working proerply (seeking 10 seconds more)
+            time.sleep(0.1) #working with no keypress in 5 milisecond
         
         elif(keyboard.is_pressed('d') == True):
-            yt_app.seek_backward() #Not working proerply (seeking 10 seconds more)
+            count = yt_app.seek_backward() #Not working proerply (seeking 10 seconds more)
+            time.sleep(0.1) #working with no keypress in 5 milisecond
 
         elif(keyboard.is_pressed('q') == True):
             yt_app.close() # working but need to quit terminal command
