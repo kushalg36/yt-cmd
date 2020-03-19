@@ -16,6 +16,23 @@ class logic:
         self.api_key = os.environ.get('yt_api')
         self.youtube = build('youtube','v3',developerKey=self.api_key)
 
+    def video_info(self):
+        """
+        Returns song_title and channel_name
+        """
+        youtube = self.youtube
+        # request_for_video = youtube.videos().list(
+        #     part="snippet,contentDetails",
+        #     id=self.video_id
+        # )
+        # response = request_for_video.execute()
+
+        # video_title = response['items'][0]['snippet']['title']
+        # video_channel = response['items'][0]['snippet']['channelTitle']
+        # info = str('Playing video '+ video_title +' by '+ video_channel) 
+        info = self.driver.find_element_by_css_selector(".style-scope.ytd-video-primary-info-renderer").text
+        return info
+
     def search(self, query):
         """
         Search function
@@ -35,24 +52,12 @@ class logic:
         self.driver.get(self.url)
         button = self.driver.find_element_by_css_selector(".ytp-play-button.ytp-button")
         coordinates = button.location_once_scrolled_into_view
+        time.sleep(10)
+        info = self.driver.find_element_by_xpath("//h1/yt-formatted-string[@class='style-scope ytd-video-primary-info-renderer' and 1]").text
+        print(info)
         button.click()
         return True
 
-    def video_info(self):
-        """
-        Returns song_title and channel_name
-        """
-        youtube = self.youtube
-        request_for_video = youtube.videos().list(
-            part="snippet,contentDetails",
-            id=self.video_id
-        )
-        response = request_for_video.execute()
-
-        video_title = response['items'][0]['snippet']['title']
-        video_channel = response['items'][0]['snippet']['channelTitle']
-        info = str('Playing video '+ video_title +' by '+ video_channel) 
-        return info
 
     def action(self,button):
         """

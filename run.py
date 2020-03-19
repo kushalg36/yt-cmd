@@ -1,14 +1,18 @@
 from logic import logic
 import keyboard 
-import sys
+import sys,traceback
 import argparse
 import time
 
 '''
  TODO
- 1) handle keyboardInterrupt
- 2) handle MaxRetryError
+ 1) handle keyboardInterrupt ---DONE
+ 2) handle MaxRetryError ---DONE
  3) add graphics
+ 4) add colors
+ 5) show video name and artist ---DONE
+ 6) ctrl + C should also stop music
+ 7) wait until
 '''
 
 # call logic here
@@ -19,8 +23,6 @@ def delete_lines(n):
         sys.stdout.write(SHIFT_UP)
         sys.stdout.write(DELETE_LINE)
 
-def info():
-    title = logic.video_info()
 
 def args_parser():
     """
@@ -63,5 +65,10 @@ def format(args):
             yt_app.close() # working but need to quit terminal command
 
 if __name__ == "__main__":
-    args = args_parser()
-    format(args)
+    try:
+        args = args_parser()
+        format(args)
+    except KeyboardInterrupt:
+        print('Shutdown requested...exiting')
+    # except Exception:
+    #     print('Something went wrong!')
