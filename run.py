@@ -38,19 +38,19 @@ def format(args):
             yt_app.search(song=song) #Not working yet
 
         elif(keyboard.is_pressed('l') == True):
-            yt_app.next() #Not working yet
+            yt_app.next() #Working without issues
 
         elif(keyboard.is_pressed('k') == True):
-            yt_app.play_pause() #Working
+            yt_app.play_pause() #Working without issues
 
         elif(keyboard.is_pressed('g') == True):
-            yt_app.seek_forward() #Not working proerply
+            yt_app.seek_forward() #Not working proerply (seeking 10 seconds more)
         
         elif(keyboard.is_pressed('d') == True):
-            yt_app.seek_backward() #Not working proerply
+            yt_app.seek_backward() #Not working proerply (seeking 10 seconds more)
 
         elif(keyboard.is_pressed('q') == True):
-            yt_app.close() # working
+            yt_app.close() # working but need to quit terminal command
 
 if __name__ == "__main__":
     args = args_parser()

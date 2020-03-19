@@ -67,28 +67,32 @@ class logic:
         """
         Play next song in the suggestion
         """
-        button = Keys.LEFT_SHIFT + 'n'
-        self.action(button)
+        # button = Keys.LEFT_SHIFT,'n'
+        # self.action(button)
+        button = self.driver.find_element_by_css_selector(".ytp-next-button.ytp-button")
+        button.click()
 
     def play_pause(self):
         """
         Play/Pause your song 
         """
-        button = 'k'
-        self.action(button)
+        # button = 'k'
+        # self.action(button)
+        button = self.driver.find_element_by_css_selector(".ytp-play-button.ytp-button")
+        button.click()
 
     def seek_forward(self):
         """
         Seek forward 5 seconds
         """
-        button = 'l'
+        button = Keys.ARROW_RIGHT
         self.action(button)
 
     def seek_backward(self):
         """
         Seek backward 5 seconds
         """
-        button = 'j'
+        button = Keys.ARROW_LEFT
         self.action(button)
 
     def close(self):
