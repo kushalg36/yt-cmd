@@ -4,6 +4,17 @@ import sys,traceback
 import argparse
 import time
 
+'''
+ TODO
+ 1) handle keyboardInterrupt ---DONE
+ 2) handle MaxRetryError ---DONE
+ 3) add graphics
+ 4) add colors
+ 5) show video name and artist ---DONE
+ 6) ctrl + C should also stop music ---DONE with bugs
+ 7) wait until  
+'''
+
 def args_parser():
         """
         Parse Command line arguments
@@ -34,27 +45,27 @@ class run_logic:
         while keyboard.is_pressed('q') == False:
             if(keyboard.is_pressed('s') == True):
                 song = input('Enter new song==> ')
-                self.yt_app.search(query = song) #Not working yet
+                self.yt_app.search(query = song)
                 time.sleep(0.1)
 
             elif(keyboard.is_pressed('l') == True):
-                self.yt_app.next() #Working without issues
+                self.yt_app.next()
                 time.sleep(0.1)
 
             elif(keyboard.is_pressed('f') == True):
-                self.yt_app.play_pause() #Working without issues
+                self.yt_app.play_pause() 
                 time.sleep(0.1)
 
             elif(keyboard.is_pressed('g') == True):
-                self.yt_app.seek_forward() #Not working proerply (seeking 10 seconds more)
-                time.sleep(0.1) #working with no keypress in 5 milisecond
+                self.yt_app.seek_forward() 
+                time.sleep(0.1) 
             
             elif(keyboard.is_pressed('d') == True):
-                count = self.yt_app.seek_backward() #Not working proerply (seeking 10 seconds more)
-                time.sleep(0.1) #working with no keypress in 5 milisecond
+                count = self.yt_app.seek_backward() 
+                time.sleep(0.1) 
 
             elif(keyboard.is_pressed('q') == True):
-                self.yt_app.close() # working but need to quit terminal command
+                self.yt_app.close() 
 
 if __name__ == "__main__":
     run_app =  run_logic()
