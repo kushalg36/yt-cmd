@@ -36,39 +36,39 @@ def format(args):
     """
     Key formating
     """
-    yt_app = logic()
-    yt_app.search(args.song)
+    try: 
+        yt_app = logic()
+        yt_app.search(args.song)
 
-    while keyboard.is_pressed('q') == False:
-        if(keyboard.is_pressed('s') == True):
-            song = input('Enter new song==> ')
-            yt_app.search(query = song) #Not working yet
-            time.sleep(0.1)
+        while keyboard.is_pressed('q') == False:
+            if(keyboard.is_pressed('s') == True):
+                song = input('Enter new song==> ')
+                yt_app.search(query = song) #Not working yet
+                time.sleep(0.1)
 
-        elif(keyboard.is_pressed('l') == True):
-            yt_app.next() #Working without issues
-            time.sleep(0.1)
+            elif(keyboard.is_pressed('l') == True):
+                yt_app.next() #Working without issues
+                time.sleep(0.1)
 
-        elif(keyboard.is_pressed('f') == True):
-            yt_app.play_pause() #Working without issues
-            time.sleep(0.1)
+            elif(keyboard.is_pressed('f') == True):
+                yt_app.play_pause() #Working without issues
+                time.sleep(0.1)
 
-        elif(keyboard.is_pressed('g') == True):
-            yt_app.seek_forward() #Not working proerply (seeking 10 seconds more)
-            time.sleep(0.1) #working with no keypress in 5 milisecond
-        
-        elif(keyboard.is_pressed('d') == True):
-            count = yt_app.seek_backward() #Not working proerply (seeking 10 seconds more)
-            time.sleep(0.1) #working with no keypress in 5 milisecond
+            elif(keyboard.is_pressed('g') == True):
+                yt_app.seek_forward() #Not working proerply (seeking 10 seconds more)
+                time.sleep(0.1) #working with no keypress in 5 milisecond
+            
+            elif(keyboard.is_pressed('d') == True):
+                count = yt_app.seek_backward() #Not working proerply (seeking 10 seconds more)
+                time.sleep(0.1) #working with no keypress in 5 milisecond
 
-        elif(keyboard.is_pressed('q') == True):
-            yt_app.close() # working but need to quit terminal command
+            elif(keyboard.is_pressed('q') == True):
+                yt_app.close() # working but need to quit terminal command
 
 if __name__ == "__main__":
-    try:
-        args = args_parser()
-        format(args)
+    args = args_parser()
+    format(args)
     except KeyboardInterrupt:
         print('Shutdown requested...exiting')
-    # except Exception:
-    #     print('Something went wrong!')
+    except Exception:
+        print('Something went wrong!')

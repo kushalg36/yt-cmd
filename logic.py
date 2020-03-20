@@ -76,6 +76,9 @@ class logic:
         # self.action(button)
         button = self.driver.find_element_by_css_selector(".ytp-next-button.ytp-button")
         button.click()
+        time.sleep(10)
+        info = self.driver.find_element_by_xpath("//h1/yt-formatted-string[@class='style-scope ytd-video-primary-info-renderer' and 1]").text
+        print(info)
 
     def play_pause(self):
         """
@@ -104,4 +107,5 @@ class logic:
         """
         Close the browser
         """
+        print('testing--to be removed')
         self.driver.quit()
