@@ -1,0 +1,7 @@
+geckodriver.log
+test.py
+test1.py
+run_noclass.py
+venv
+__pycache__
+.vscode

@@ -11,64 +11,70 @@ import time
  3) add graphics
  4) add colors
  5) show video name and artist ---DONE
- 6) ctrl + C should also stop music
- 7) wait until
+ 6) ctrl + C should also stop music ---DONE with bugs
+ 7) wait until  
 '''
 
-# call logic here
-
-
-def delete_lines(n):
-    for i in range(n):
-        sys.stdout.write(SHIFT_UP)
-        sys.stdout.write(DELETE_LINE)
-
-
 def args_parser():
-    """
-    Parse Command line arguments
-    """
-    parser = argparse.ArgumentParser(description='yt-play: Play music from terminal')
-    parser.add_argument('-s','--song',type=str,help='Enter song name to be played')
-    return parser.parse_args()
+        """
+        Parse Command line arguments
+        """
+        parser = argparse.ArgumentParser(description='yt-play: Play music from terminal')
+        parser.add_argument('-s','--song',type=str,help='Enter song name to be played')
+        return parser.parse_args()
 
-def format(args):
-    """
-    Key formating
-    """
-    try: 
-        yt_app = logic()
-        yt_app.search(args.song)
+class run_logic:
+    def __init__(self):
+        """
+        Initialize the logic class
+        """
+        self.yt_app = logic()
+
+    def app_close(self):
+        """
+        Close application
+        """
+        self.yt_app.close()
+
+    def format(self,args):
+        """
+        Key formating
+        """
+        self.yt_app.search(args.song)
 
         while keyboard.is_pressed('q') == False:
             if(keyboard.is_pressed('s') == True):
                 song = input('Enter new song==> ')
-                yt_app.search(query = song) #Not working yet
+                self.yt_app.search(query = song)
                 time.sleep(0.1)
 
             elif(keyboard.is_pressed('l') == True):
-                yt_app.next() #Working without issues
+                self.yt_app.next()
                 time.sleep(0.1)
 
             elif(keyboard.is_pressed('f') == True):
-                yt_app.play_pause() #Working without issues
+                self.yt_app.play_pause() 
                 time.sleep(0.1)
 
             elif(keyboard.is_pressed('g') == True):
-                yt_app.seek_forward() #Not working proerply (seeking 10 seconds more)
-                time.sleep(0.1) #working with no keypress in 5 milisecond
+                self.yt_app.seek_forward() 
+                time.sleep(0.1) 
             
             elif(keyboard.is_pressed('d') == True):
-                count = yt_app.seek_backward() #Not working proerply (seeking 10 seconds more)
-                time.sleep(0.1) #working with no keypress in 5 milisecond
+                count = self.yt_app.seek_backward() 
+                time.sleep(0.1) 
 
             elif(keyboard.is_pressed('q') == True):
-                yt_app.close() # working but need to quit terminal command
+                self.yt_app.close() 
 
 if __name__ == "__main__":
-    args = args_parser()
-    format(args)
-    except KeyboardInterrupt:
+    run_app =  run_logic()
+    try:
+        args = args_parser()
+        run_app.format(args)
+    except (KeyboardInterrupt, SystemExit):
         print('Shutdown requested...exiting')
     except Exception:
-        print('Something went wrong!')
+        print('Encountered some error! Please restart the application')   
+    finally:
+        run_app.app_close()
