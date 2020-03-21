@@ -1,10 +1,11 @@
 geckodriver.log
 test.py
 test1.py
-run_noclass.py
+# run_noclass.py
 venv
 __pycache__
 .vscode
+run_noclass.py
 
 # Compiled source #
 ###################
