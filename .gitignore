@@ -12,7 +12,7 @@ run_noclass.py
 *.com
 *.class
 *.dll
-*.exe
+# *.exe
 *.o
 *.so
 
