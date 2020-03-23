@@ -97,3 +97,10 @@ Post installation, you can start the application by-
 5) show video name and artist ---DONE
 6) ctrl + C should also stop music 
 7) wait until  
+
+# Reference
+---
+
+-Reddit user [aa_y_ush](https://www.reddit.com/user/aa_y_ush/) for posting [this](https://www.reddit.com/r/Python/comments/eyb3de/my_software_mucliar_is_a_youtube_automator_that/?utm_medium=android_app&utm_source=share) idea.
+
+-This couldn't be possible without the beautiful people of stackoverflow.
